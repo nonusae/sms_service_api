@@ -18,6 +18,7 @@ Bundler.require(*Rails.groups)
 
 module MessageService
   class Application < Rails::Application
+    config.autoload_paths << Rails.root.join("lib") # this is the key code to add
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.1
 
