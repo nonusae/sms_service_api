@@ -1,3 +1,2 @@
-# README
 
-## Sms notification api with Rails 5
+Standard Sms notification api microservice integrate with Twilio api, develop by BDD using RSpec
