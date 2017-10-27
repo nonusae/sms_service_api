@@ -11,3 +11,9 @@ class Client < ActiveRecord::Base
       self.api_key = ApiKey.generator
     end
 end
+
+## for test 
+## app_name5
+## eMIu6EF3Qre7AppRMqm1HQtt
+
+# curl --user app_name5:eMIu6EF3Qre7AppRMqm1HQtt -X POST -d "notification[phone]=881497885" -d "notification[body]=mymessage from app" -d "notification[source_app]=app_name5" http://localhost:3000/notifications
